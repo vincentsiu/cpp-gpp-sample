@@ -12,4 +12,4 @@ pool:
 steps:
 - script: |
     make
-  displayName: 'make'
+  displayName: 'make to build PrimesInRange'
