@@ -23,4 +23,4 @@ steps:
 - script:
     echo 'Running some basic test'
     ./primes_in_range 10 100
-  displayName: 'Testinging'
+  displayName: 'Testing'
