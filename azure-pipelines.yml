@@ -15,3 +15,12 @@ steps:
     echo 'Hello I am running make!!!!'
     ./primes_in_range 10 100
   displayName: 'make to build PrimesInRange'
+
+- script: 
+    echo 'Hello I am running make!!!!!'
+  displayName: 'Fooling around'
+
+- script:
+    echo 'Running some basic test'
+    ./primes_in_range 10 100
+  displayName: 'Testinging'
