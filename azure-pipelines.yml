@@ -12,20 +12,8 @@ pool:
 steps:
 - script: |
     make
-    echo 'Hello I am running make!!!!'
-    ls
-    ./primes_in_range 10 100
-    ./primes_in_range 5 30
-    echo 'Done'
   displayName: 'make to build PrimesInRange'
 
 - script: 
-    echo 'Hello I am running make!!!!!'
-  displayName: 'Fooling around'
-
-- script:
-    echo 'Running some basic test'
-    ls
-    ./primes_in_range 80 200
-    echo 'Done123'
-  displayName: 'Testing'
+    echo 'Hello this is a stupid step T_T!'
+  displayName: 'This is a stupid step'
