@@ -16,6 +16,7 @@ steps:
     ls
     ./primes_in_range 10 100
     ./primes_in_range 5 30
+    echo 'Done'
   displayName: 'make to build PrimesInRange'
 
 - script: 
@@ -26,4 +27,5 @@ steps:
     echo 'Running some basic test'
     ls
     ./primes_in_range 80 200
+    echo 'Done123'
   displayName: 'Testing'
