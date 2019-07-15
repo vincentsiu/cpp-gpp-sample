@@ -31,7 +31,7 @@ jobs:
   - task: Delay@1
     displayName: 'Delay by 3 minutes. Waiting for agent to connect to Azure DevOps...'
     inputs:
-      delayForMinutes: 3
+      delayForMinutes: 6
 
 #####################################################################################################################################
 # Agent build phase: Run example cpp job (https://github.com/adventworks/cpp-gpp-sample)
